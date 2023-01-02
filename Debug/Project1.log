@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\dss\desktop\project1\project1\main.cpp(43): error C2248: 'imaging::Image::load': cannot access private member declared in class 'imaging::Image'
+  c:\users\dss\desktop\project1\project1\image.h(54): note: see declaration of 'imaging::Image::load'
+  c:\users\dss\desktop\project1\project1\image.h(36): note: see declaration of 'imaging::Image'
+c:\users\dss\desktop\project1\project1\main.cpp(45): error C2248: 'imaging::Image::save': cannot access private member declared in class 'imaging::Image'
+  c:\users\dss\desktop\project1\project1\image.h(68): note: see declaration of 'imaging::Image::save'
+  c:\users\dss\desktop\project1\project1\image.h(36): note: see declaration of 'imaging::Image'
+  Image.cpp
+c:\users\dss\desktop\project1\project1\image.cpp(32): warning C4018: '<': signed/unsigned mismatch
+c:\users\dss\desktop\project1\project1\image.cpp(48): error C2659: '=': function as left operand
+c:\users\dss\desktop\project1\project1\image.cpp(51): warning C4018: '<': signed/unsigned mismatch
+c:\users\dss\desktop\project1\project1\image.cpp(52): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(53): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(54): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  FilterLinear.cpp
+  FilterGamma.cpp
+  Generating Code...
